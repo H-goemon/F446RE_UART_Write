@@ -100,7 +100,7 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   uint8_t time = 0;
-  printf("Hello World!\r\n");
+  printf("UART Write Test!\r\n");
   while (1)
   {
     printf("Time: %d\r\n", time++);
